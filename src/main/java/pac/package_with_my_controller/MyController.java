@@ -1,0 +1,14 @@
+package pac.package_with_my_controller;
+
+import org.springframework.web.bind.annotation.RequestMapping;
+import org.springframework.web.bind.annotation.RequestMethod;
+import org.springframework.web.bind.annotation.RestController;
+
+@RestController
+public class MyController {
+
+    @RequestMapping(value = "/", method = RequestMethod.GET)
+    public String homePage() {
+        return "Hello, I am a Springboot app and I am running";
+    }
+}
