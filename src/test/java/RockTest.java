@@ -29,8 +29,8 @@ public class RockTest {
     @Test
     public void drawsVsRockUsingVs() {
         Rock subject = new Rock();
-        Rock opponentWeapon = new Rock();
-        String result = subject.vs(opponentWeapon);
+        Rock opponent = new Rock();
+        String result = subject.vs(opponent);
         Assert.assertEquals("draw", result);
     }
 }

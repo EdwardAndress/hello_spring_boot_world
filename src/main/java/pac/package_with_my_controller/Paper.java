@@ -1,16 +1,15 @@
 package pac.package_with_my_controller;
 
-public class Rock extends Weapon {
-
+public class Paper extends Weapon {
     public String rock() {
-        return "draw";
+        return "win";
     }
 
     public String paper() {
-        return "lose";
+        return "draw";
     }
 
     public String scissors() {
-        return "win";
+        return "lose";
     }
 }

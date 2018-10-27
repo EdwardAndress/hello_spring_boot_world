@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" name="RockTest" time="0" tests="4" errors="0" skipped="0" failures="0">
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" name="PaperTest" time="0" tests="3" errors="0" skipped="0" failures="0">
   <properties>
     <property name="gopherProxySet" value="false"/>
     <property name="awt.toolkit" value="sun.lwawt.macosx.LWCToolkit"/>
@@ -61,8 +61,7 @@
     <property name="java.class.version" value="55.0"/>
     <property name="socksNonProxyHosts" value="local|*.local|169.254/16|*.169.254/16"/>
   </properties>
-  <testcase name="winsVsScissors" classname="RockTest" time="0"/>
-  <testcase name="drawsVsRockUsingVs" classname="RockTest" time="0"/>
-  <testcase name="drawsVsRock" classname="RockTest" time="0"/>
-  <testcase name="losesVsPaper" classname="RockTest" time="0"/>
+  <testcase name="drawsVsPaper" classname="PaperTest" time="0"/>
+  <testcase name="winsVsRock" classname="PaperTest" time="0"/>
+  <testcase name="losesVsScissors" classname="PaperTest" time="0"/>
 </testsuite>
